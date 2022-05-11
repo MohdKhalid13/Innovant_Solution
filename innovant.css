@@ -1,0 +1,101 @@
+.col-4
+{
+    background-color: whitesmoke   ;
+    align-content: center;
+    height: 600px;
+    width: 400px;
+    margin-top: 50px;
+    padding: 25px;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+.col-1
+{
+    background-color: white;
+}
+
+.col-2
+{
+    background-color: white;
+}
+
+#email , #psw ,#txt , #cpsw , .check
+{
+    margin-top: 10px;
+}
+
+#fpsw
+{
+    margin-left: 130px;
+}
+
+.btn btn-default{
+
+    border: 1px solid black;
+}
+.head{
+    margin-left: 100px;
+}
+.list ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 15px;    
+}
+.list ul li a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 1000px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } 
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: inline;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .icon{
+      text-decoration: none;
+      float: right;
+  }
+  .icon ul li {
+      display: inline-block;
+      padding: 10px;
+      cursor: pointer;
+  }
+
+  .ic{
+      height: 10px;
+      width: 20px;
+  }
+
+  .form-group::before
+  {
+      content: "*";
+      color: red;
+  }
